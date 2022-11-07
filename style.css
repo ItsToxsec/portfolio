@@ -114,6 +114,7 @@ u,
 	align-items: center;
 	margin-bottom: 6rem;
 	font-size: 1.3rem;
+	min-height: 50vh;
 }
 .main {
 	width: 75vw;
@@ -152,6 +153,7 @@ u,
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 4rem;
+	min-height: 65vh;
 }
 .work-links {
 	width: 14vw;
