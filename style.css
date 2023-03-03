@@ -24,8 +24,8 @@ div {
 .header {
 	background-color: var(--main);
 	font-family: 'Arvo', serif;
-	width: inherit;
 	padding-top: 2rem;
+	width: inherit;
 	/* margin: auto; */
 	display: flex;
 }
@@ -54,7 +54,10 @@ div {
 	display: table-row;
 }
 .content {
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 	min-height: 100vh;
 }
 .center-center {
