@@ -30,8 +30,11 @@ div {
 	display: flex;
 }
 .footer {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	background-color: var(--main);
-	padding: 1rem;
 	display: table;
 	margin: auto;
 	align-items: center;
@@ -50,12 +53,9 @@ div {
 .container-table {
 	display: table-row;
 }
-.footer-container {
-	background-color: var(--main);
-	display: table-cell;
-	vertical-align: middle;
-	align-items: center;
-	text-align: center;
+.content {
+	position: relative;
+	min-height: 100vh;
 }
 .center-center {
 	align-items: center;
