@@ -7,6 +7,7 @@
 	box-sizing: border-box;
 }
 body {
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -113,7 +114,7 @@ u,
 	max-width: 65vw;
 	text-align: center;
 	align-items: center;
-	margin-bottom: 6rem;
+	margin-bottom: 12rem;
 	font-size: 1.3rem;
 	min-height: 50vh;
 }
@@ -153,16 +154,22 @@ u,
 	font-size: 2rem;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 4rem;
 	min-height: 65vh;
+	width: 95%;
+	margin-bottom: 12rem;
 }
 .work-links {
-	width: 14vw;
-	height: 21vw;
+	width: 20vw;
+	height: 30vw;
 	background-size: scale-down;
 	background-repeat: no-repeat;
 	margin: 1rem;
 	padding: auto;
+}
+.cert-links {
+	width: 25vw;
+	height: auto;
+	padding: 1rem;
 }
 .project {
 	background-color: transparent;
@@ -278,6 +285,11 @@ footer {
 		width: 18vw;
 		height: 27vw;
 	}
+	.cert-links {
+		width: 30vw;
+		height: auto;
+		padding: 1rem;
+	}
 	.overlay {
 		width: 75vh;
 		height: auto;
@@ -307,6 +319,11 @@ footer {
 		width: 24vw;
 		height: 36vw;
 	}
+	.cert-links {
+		width: 40vw;
+		height: auto;
+		padding: 1rem;
+	}
 	.overlay {
 		width: 90vw;
 		height: auto;
@@ -325,6 +342,11 @@ footer {
 	.work-links {
 		width: 31vw;
 		height: 46vw;
+	}
+	.cert-links {
+		width: 40vw;
+		height: auto;
+		padding: 1rem;
 	}
 }
 @media (max-width: 550px) {
@@ -375,6 +397,11 @@ footer {
 	.work-links {
 		width: 40vw;
 		height: 60vw;
+	}
+	.cert-links {
+		width: 80vw;
+		height: auto;
+		padding: 1rem;
 	}
 	.overlay {
 		width: 90vw;
